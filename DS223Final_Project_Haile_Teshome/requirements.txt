@@ -1,0 +1,14 @@
+Bio==1.8.0
+biopython==1.85
+numpy==1.23.5
+openai==0.28.0
+pandas==2.3.0
+plotly==5.9.0
+py3Dmol==2.4.2
+py3Dmol==2.5.0
+Requests==2.32.4
+scikit_learn==1.7.0
+streamlit==1.27.2
+torch==2.7.0
+torch_geometric==2.6.1
+umap_learn==0.5.7
