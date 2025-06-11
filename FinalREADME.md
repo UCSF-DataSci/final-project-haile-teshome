@@ -1,6 +1,6 @@
 # Protein Binding Prediction — Project Overview
 
-This repository contains a self-contained machine learning project designed to **predict protein–drug binding sites and Pfam domain families** using a Graph Neural Network (GNN) trained on AlphaFold-predicted 3D protein structures. A visual and interactive Streamlit dashboard is also provided to explore and interpret the model's predictions.
+This repository contains a self-contained machine learning project designed to predict protein–drug binding sites and Pfam domain families using a Graph Neural Network (GNN) trained on AlphaFold-predicted 3D protein structures. A visual and interactive Streamlit dashboard is also provided to explore and interpret the model's predictions.
 <img width="1639" alt="Screenshot 2025-06-11 at 3 06 07 AM" src="https://github.com/user-attachments/assets/ba06ed6e-ed13-4891-a210-4f6f289e35c4" />
 <img width="1644" alt="Screenshot 2025-06-11 at 3 06 20 AM" src="https://github.com/user-attachments/assets/f7eaf3f2-f092-4e4c-b960-9eecccba9555" />
 
@@ -35,7 +35,7 @@ Our goal was to build a pipeline that can:
 
 ## 3. Model Architecture
 
-- Implemented in **PyTorch Geometric**
+- Implemented in PyTorch Geometric
 - **Three-layer GCN**
   - Each layer updates node features via message passing
 - **Global Mean Pooling** to collapse node-level embeddings to a single graph-level vector
